@@ -1,0 +1,113 @@
+.section-6
+	position: relative
+	padding: 6% 0
+	background-color: #323969
+	background-size: cover 
+	overflow: hidden
+	text-align: center
+
+	.p-red-c
+		margin: 0 auto
+		color: #ff6d6d
+		font-family: Exo
+		font-size: 1rem
+		font-weight: 500
+		line-height: 50px
+		text-transform: uppercase
+
+	h2
+		color: #ffffff
+		font-family: Exo
+		font-size: 2.5rem
+		font-weight: 500
+		line-height: 50px
+
+	div
+		display: flex
+		justify-content: flex-end
+		align-items: flex-end
+		position: relative
+		right: 96px
+		margin: 30px 0
+
+
+		img
+
+		p
+			color: #ffffff
+			font-family: Exo
+			font-size: 1rem
+			font-weight: 400
+			line-height: 75px
+
+	form
+		display: flex
+		justify-content: center
+		align-items: center
+
+		.input
+			margin: 0 20px
+			padding: 0 0 0 20px
+			width: 210px
+			height: 40px
+			border-radius: 3px
+			border: 1px solid #ffffff
+			background-color: rgba(246, 245, 243, 0.2)
+			opacity: 0.5
+			font-family: Exo
+			font-size: 1rem
+			font-weight: 400
+			text-transform: uppercase
+			cursor: pointer
+
+		button
+			margin: 0 0 0 20px
+			padding: 9px 60px
+			box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25)
+			border-radius: 3px
+			border: 1px solid #ff6d6d
+			background-color: #ff6d6d
+			color: #f6f5f3
+			font-family: Exo
+			font-size: 1rem
+			font-weight: 400
+			text-transform: uppercase
+			cursor: pointer
+			transition: linear .5s
+
+			&:hover
+				background-color: #f0c85e
+
+	form + p
+		padding: 2% 0 0 0 
+		opacity: 0.6
+		color: #ffffff
+		font-family: Exo
+		font-size: 1rem
+		font-weight: 400
+		line-height: 75px
+
+		a
+			text-decoration: underline
+			cursor: pointer
+
+
+@media screen and (max-width: 1060px)
+	.section-6
+
+		form
+			display: flex
+			flex-wrap: wrap
+			padding: 3%
+			
+			button
+				margin: 3% 0
+
+@media screen and (max-width: 870px)
+	.section-6 
+		form
+			display: flex
+			flex-flow: column nowrap
+
+			.input
+				margin: 1.6% 0

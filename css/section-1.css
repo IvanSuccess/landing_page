@@ -1,0 +1,74 @@
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin-left: 8%;
+  background-color: #FFF;
+}
+
+.section-1 .p-red-l {
+  color: #ff6d6d;
+}
+
+.section-1 h2 {
+  max-width: 532px;
+  font-family: Exo;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #282828;
+}
+
+.section-1 p {
+  max-width: 571px;
+  opacity: 0.66;
+  color: #282828;
+  font-family: Exo;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.section-1 div {
+  position: relative;
+}
+
+.section-1 .photo-block {
+  width: 500px;
+  height: 600px;
+  background-color: #ededed;
+}
+
+.section-1 .s1-traingle {
+  margin: -400px 0 0 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 400px 500px 0px 0;
+  border-color: transparent  #ff6d6d transparent transparent;
+  opacity: 0.8;
+}
+
+.points {
+  color: #ff6d6d;
+}
+
+.p-red-l {
+  color: #ff6d6d;
+  font-family: Exo;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1175px) {
+  .section-1 {
+    flex-direction: column;
+    margin: 0;
+    padding: 6%;
+  }
+  .section-1 div h2 + p {
+    padding: 8% 0;
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "landing_page",
+  "version": "0.0.1",
+  "description": "default",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanSuccess/landing_page.git"
+  },
+  "keywords": [
+    "landing",
+    "page"
+  ],
+  "author": "IvanSuccess",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanSuccess/landing_page/issues"
+  },
+  "homepage": "https://github.com/IvanSuccess/landing_page#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

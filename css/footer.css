@@ -1,0 +1,132 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  position: relative;
+  padding: 70px 0;
+}
+
+footer .ftr-block1 {
+  max-width: 231px;
+}
+
+footer .ftr-block1 p {
+  opacity: 0.56;
+  color: #282828;
+  font-family: Exo;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+footer h3 {
+  color: #282828;
+  font-family: Exo;
+  font-size: 1.375rem;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+footer a {
+  display: block;
+  opacity: 0.66;
+  color: #282828;
+  font-family: Exo;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+footer .ftr-block3 div {
+  display: flex;
+  align-items: center;
+}
+
+footer .ftr-block3 input {
+  padding: 0 0 0 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid #4e4e5e;
+  background-color: rgba(141, 141, 141, 0.2);
+  opacity: 0.4;
+  color: #000000;
+  font-family: Exo;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+footer .ftr-block3 button {
+  margin: 0 0 0 -1px;
+  width: 42px;
+  height: 40px;
+  box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+  border-radius: 3px;
+  border: 1px solid #ff6d6d;
+  background-color: #ff6d6d;
+  cursor: pointer;
+  transition: linear .5s;
+}
+
+footer .ftr-block3 button:hover {
+  background-color: #f0c85e;
+}
+
+footer .ftr-block3 .ftr-block3-soc {
+  display: block;
+  text-align: center;
+}
+
+footer .ftr-block3 .ftr-block3-soc img {
+  display: inline-block;
+  margin: 20px 6px;
+  cursor: pointer;
+}
+
+footer .ftr-traingle-tr {
+  position: relative;
+  top: -100px;
+  right: -2.7%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 200px 100px 0;
+  border-color: transparent transparent transparent transparent;
+  z-index: -1;
+}
+
+footer .ftr-traingle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 300px 300px 0;
+  border-color: transparent #ff6d6d transparent transparent;
+  z-index: -1;
+}
+
+@media screen and (max-width: 870px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3%;
+  }
+  footer div {
+    margin: 2% 0;
+  }
+  footer .ftr-traingle-tr {
+    display: none;
+  }
+  footer .ftr-traingle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    border-width: 0px 150px 150px 0;
+  }
+}
