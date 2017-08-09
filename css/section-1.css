@@ -5,6 +5,7 @@
   max-width: 1440px;
   margin-left: 8%;
   background-color: #FFF;
+  overflow: hidden;
 }
 
 .section-1 .p-red-l {

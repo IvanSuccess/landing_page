@@ -3,6 +3,7 @@
   padding: 5% 0;
   background-color: #000;
   opacity: 0.9;
+  overflow: hidden;
 }
 
 .section-4:before {

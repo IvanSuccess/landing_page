@@ -4,6 +4,7 @@ footer {
   align-items: flex-start;
   position: relative;
   padding: 70px 0;
+  overflow: hidden;
 }
 
 footer .ftr-block1 {
