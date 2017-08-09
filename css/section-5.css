@@ -35,3 +35,7 @@
   font-weight: 500;
   line-height: 25px;
 }
+
+.section-5 img {
+  max-width: 80vw;
+}
